@@ -54,30 +54,6 @@ kramdown:
 
 
 
-#Disgus
-<!-- Gitalk 评论 start  -->
-
-<!-- Link Gitalk 的支持文件  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-<div id="gitalk-container"></div>     <script type="text/javascript">
-    var gitalk = new Gitalk({
-
-		clientID: 09d0e4b0a2b7a0c22fc1,
-		clientSecret: d7bf45613579a9ae901426d102497b9dc4bfa98d,
-		repo: io-s-issue,
-		owner: qing646,
-		admin: [qing646],
-		id: window.location.pathname,
-    
-    });
-    gitalk.render('gitalk-container');
-</script> 
-<!-- Gitalk end -->
-
-
-
-
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
