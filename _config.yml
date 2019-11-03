@@ -1,28 +1,27 @@
 # Site settings
-title: 宿苍
+title: 宿 苍
 SEOTitle: 七宿苍龙，五行八荒 | 青燇
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+email: fromtheend@vip.qq.com
+description: "希厨/折纸/钢笔/手帐/观星/coding/doctor who/篆刻"
+keyword: "QINGJUN, 青燇"
+url: "http://qing646.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Run! You clever boy! And remember..."
+sidebar-avatar: /img/IMG_4113.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+zhihu_username:     青燇
+github_username:    qing646
+facebook_username:  
+jianshu_username:   
 #twitter_username:   qiubaiying
 
 
@@ -68,6 +67,28 @@ gitalk:
   owner: qiubaiying    #github用户名
   admin: qiubaiying
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+#Disgus
+<!-- Gitalk 评论 start  -->
+
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+		clientID: 09d0e4b0a2b7a0c22fc1,
+		clientSecret: d7bf45613579a9ae901426d102497b9dc4bfa98d,
+		repo: io-s-issue,
+		owner: qing646,
+		admin: [qing646],
+		id: window.location.pathname,
+    
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
+
 
 
 # 统计
